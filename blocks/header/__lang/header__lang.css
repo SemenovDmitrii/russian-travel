@@ -1,0 +1,16 @@
+.header__lang {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  min-width: 78px;
+  min-height: 28px;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 320px) {
+  .header__lang {
+    min-width: 62px;
+    min-height: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.place__link {
+    color: #FFFFFF;
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration-line: underline;
+    bottom: 0;
+    padding: 0;
+    align-items: end;
+  }
+
+  a {
+    text-decoration: none;
+  }
