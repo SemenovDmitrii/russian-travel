@@ -23,7 +23,7 @@
   
   @media screen and (max-width: 768px) {
     .photo-grid {
-      width: /*720px*/93.75%;
+      max-width: /*720px*/93.75%;
       margin: 0 auto 88px;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
@@ -34,7 +34,7 @@
   }
   @media screen and (max-width: 320px) {
     .photo-grid {
-      width: /*288px*/90%;
+      max-width: /*288px*/90%;
       margin: 0 16px;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
