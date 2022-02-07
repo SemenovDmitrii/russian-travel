@@ -10,26 +10,19 @@
 @media screen and (max-width: 1024px) {
   .header {
     max-width: /*928px*/90.625%;
-    height: 52px;
-    margin: 0 auto;
-    margin-top: 28px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     max-width: /*720px*/93.75%;
-    height: 52px;
-    margin: 0 auto;
-    margin-top: 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
     max-width: /*288px*/90%;
-    height: 42px;
-    margin: 0 auto;
+    min-height: 42px;
     margin-top: 16px;
   }
 }
